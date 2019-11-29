@@ -19,11 +19,16 @@ mean_pixelrgb.npy, std_pixelrgb.npy : the mean and the standard deviation of eac
 
 **training set:**
 sf_filename.npy : A list of colorized depth image path. (shuffle)
+
 sf_vector.npy : A list of grasp parameters. (shuffle)
+
 sf_label.npy : A list of label. (shuffle)
+
 **validation set**
 sf_vfilename.npy : A list of colorized depth image path. (shuffle)
+
 sf_vvector.npy : A list of grasp parameters. (shuffle)
+
 sf_vlabel.npy : A list of label. (shuffle)
 
 Above files are the input of the network. Please see example floder to see the right format of above files.
